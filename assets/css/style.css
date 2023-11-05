@@ -35,7 +35,7 @@ header a {
 
 }
 
-h1 { 
+h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -68,11 +68,11 @@ nav-toggle {
 }
 
 nav-toggle-label {
-    font-size:2rem;
+    font-size: 2rem;
 
 }
 
-main { 
+main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
@@ -83,6 +83,18 @@ footer {
     background-color: orange;
 }
 
+/* Media Query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+
+    }
+}
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -91,6 +103,8 @@ footer {
 
 #menu > li {
     margin-bottom: 1em;
+    padding-left: 1rem;
+
 
 
 }
