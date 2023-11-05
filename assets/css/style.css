@@ -39,6 +39,10 @@ h1 {
     color: #252525;
 }
 
+.active {
+    border-bottom: 1px solid #3a3a3a
+}
+
 main { 
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
@@ -47,4 +51,16 @@ main {
 
 footer {
     background-color: orange;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+
+
 }
